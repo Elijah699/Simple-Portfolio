@@ -79,7 +79,6 @@ footer {
   width: 100%;
 }
 
-
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 35px;
@@ -92,7 +91,5 @@ footer {
   .fab {
     padding: 0.3rem;
     font-size: 1em;
-  }
-
   }
 }
