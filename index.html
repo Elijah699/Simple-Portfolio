@@ -44,7 +44,7 @@
       <!-- Addition of CSS stylesheet -->
       <link rel="stylesheet" href="./style.css" />
     </head>
-    <body>
+    <body onload="myFunction()">
       <main id="Nav">
         <nav class="navbar navbar-dark fixed-top navbar-expand-lg bg">
           <a class="navbar-brand" href="#">E <sup>2</sup></a>
@@ -104,8 +104,12 @@
           </div>
         </div>
       </main>
-
       <footer>&#169; Elijah Edun 2020 | All right reserved.</footer>
+      <script>
+        function myFunction() {
+          alert("Welcome to Elijah's Portfolio");
+        }
+      </script>
     </body>
   </html>
 </html>
