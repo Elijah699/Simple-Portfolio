@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  color: rgb(234, 237, 237);
+}
+
+.navbar.bg {
+  background-color: #000;
+}
+
+a.navbar-brand {
+  color: #fff;
+}
+
+a.nav-link {
+  color: rgb(234, 237, 237);
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+#Contact {
+  padding-top: 3rem;
+  padding: 1rem 4rem;
+}
+
+.main__span {
+  color: #f0e100;
+  font-family: Roboto;
+}
+
+p {
+  font-family: Roboto;
+}
+
+.contact__info {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 16px;
+}
+
+.contact__info > div {
+  box-shadow: 3px 3px #f0e100;
+  font-size: 19px;
+  margin-bottom: 50px;
+  padding: 25px 43px;
+  text-align: center;
+}
+
+.contact__tel,
+.fa,
+.fab {
+  color: #f0e100;
+  padding: 5px;
+}
+
+.contact__tel:hover,
+.fa:hover,
+.fab:hover {
+  color: #fff;
+}
+
+footer {
+  background-color: #000;
+  color: #f0e100;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  height: auto;
+  margin-top: 40px;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  .fab {
+    padding: 0.3rem;
+    font-size: 1em;
+  }
+
+  }
+}
