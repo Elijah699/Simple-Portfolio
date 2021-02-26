@@ -32,7 +32,7 @@ a.nav-link {
 .about__info {
   display: grid;
   grid-gap: 40px;
-  grid-template-areas: "about__image" "about__bio " "about__skills";
+  grid-template-areas: "about__image" "about__bio " "about__skills" "about__experience";
 }
 
 .about__info .about__image {
@@ -49,6 +49,11 @@ a.nav-link {
 
 .about__info .about__skills {
   grid-area: about__skills;
+  box-shadow: 3px 3px #f0e100;
+}
+
+.about__info .about__experience {
+  grid-area: about__experience;
   box-shadow: 3px 3px #f0e100;
 }
 
