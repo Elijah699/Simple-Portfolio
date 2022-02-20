@@ -67,6 +67,19 @@ h3,
   color: #f0e100;
 }
 
+.contact__tel,
+.fa,
+.fab {
+  color: #f0e100;
+  padding: 5px;
+}
+
+.contact__tel:hover,
+.fa:hover,
+.fab:hover {
+  color: #fff;
+}
+
 footer {
   text-align: center;
   color: #f0e100;
