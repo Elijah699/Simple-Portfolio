@@ -6,4 +6,4 @@ As the name implies this portfolio is a simple one that was built with HTML, CSS
 
 Image
 
-![simple-portfolio image](https://user-images.githubusercontent.com/66225920/150576752-460f03fb-9859-46a6-bd14-208e482158ba.png)
+<img src="assets/work__image/SP img.png" alt="SP-img" />

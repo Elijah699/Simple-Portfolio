@@ -45,6 +45,19 @@ p {
   padding: 7% 15%;
 }
 
+.contact__tel,
+.fa,
+.fab {
+  color: #f0e100;
+  padding: 5px;
+}
+
+.contact__tel:hover,
+.fa:hover,
+.fab:hover {
+  color: #fff;
+}
+
 footer {
   background-color: #132e32;
   color: #f0e100;
