@@ -5,7 +5,7 @@
 
 body {
   background-color: #132e32;
-  color: rgb(234, 237, 237);
+  /* color: rgb(234, 237, 237); */
 }
 
 .navbar.bg {
@@ -39,10 +39,15 @@ p {
 
 #Work {
   padding-top: 3rem;
+  color: rgb(234, 237, 237);
 }
 
 .work__padding {
   padding: 7% 15%;
+}
+
+.contact {
+  color: rgb(234, 237, 237);
 }
 
 .contact__tel,
@@ -63,6 +68,15 @@ footer {
   color: #f0e100;
   padding: 10px;
   text-align: center;
+}
+
+.notice {
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
 }
 
 @media screen and (max-width: 768px) {
