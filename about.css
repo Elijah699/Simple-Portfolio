@@ -5,7 +5,6 @@
 
 body {
   background-color: #000;
-  color: rgb(234, 237, 237);
 }
 
 .navbar.bg {
@@ -27,6 +26,7 @@ a.nav-link {
 #About {
   padding-top: 3rem;
   padding: 1rem 4rem;
+  color: #fff;
 }
 
 .about__info {
@@ -67,6 +67,10 @@ h3,
   color: #f0e100;
 }
 
+.contact {
+  color: #fff;
+}
+
 .contact__tel,
 .fa,
 .fab {
@@ -85,4 +89,13 @@ footer {
   color: #f0e100;
   background-color: #000;
   padding: 10px;
+}
+
+.notice {
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
 }

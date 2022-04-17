@@ -64,6 +64,15 @@ footer {
   padding: 10px;
 }
 
+.notice {
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+}
+
 @media screen and (max-width: 768px) {
   #intro {
     margin-top: 2rem;
